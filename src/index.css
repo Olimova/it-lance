@@ -7,6 +7,11 @@
 li{
   list-style-type: none;
 }
+.container{
+  max-width: 1144px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .header-wrapper{
   display: flex;
@@ -48,10 +53,18 @@ li{
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: 0 110.5px;
+  margin-top: 110px;
 }
 .hero-wrapper h1{
   font-size: 64px;
   font-weight: 400;
+  color: #00C5DE;
+}
+.hero-wrapper p{
+  margin: 30px 0;
+  font-size: 24px;
+  color: gray;
 }
 
 .hero-btn {
@@ -60,4 +73,109 @@ li{
   background-color: #00C5DE;
   padding: 14px 36px;
   border-radius: 61px;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+
+
+.possibilities-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.possibilities-wrapper h3{
+  font-size: 36px;
+  font-style: bold;
+  font-weight: 700;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+.card-img{
+  position: relative;
+}
+.card-image{
+  position:absolute;
+  margin-top: 170px;
+}
+
+.card-tag{
+  margin-top: 47px;
+  font-size: 20px;
+  font-style: bold;
+  padding: 10px 0;
+  color: #00C5DE;
+}
+.card-title{
+  color: gray;
+  font-style: light;
+  line-height: 24px;
+  font-size: 16px;
+}
+.question{
+  background-color: #130C35;
+  color: white;
+}
+.question-wrapper{
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question-wrapper h3{
+  margin: 96px 0 46px 0;
+}
+.question-body{
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  margin-bottom: 103px;
+}
+.question__title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  border: 1px solid gray;
+  margin: 20px 0;
+  padding: 20px 8px 20px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  position: relative;
+}
+.question__title p {
+  margin: 20px 0;
+
+}
+.question__title button{
+  border: none;
+  color: #00C5DE;
+  padding: 8px;
+  background-color: #130C35;
+  position:absolute;
+  right: 14px;
+  top:20px;
+  font-size: 28px;
+}
+.last{
+  max-width: 1000px;
+}
+
+.question-wrapper h3 {
+  font-size: 36px;
+  font-style: bold;
 }

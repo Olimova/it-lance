@@ -19,7 +19,7 @@ const Header = () => {
                   }
                   <div className='button'>
                       <button className='btn'>Отправить заявку</button>
-                      <button class="lang-btn">РУС</button>
+                      <button className="lang-btn">РУС</button>
                   </div>
             </div>
         </header>
